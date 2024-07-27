@@ -19,8 +19,8 @@ const getinfo = async () => {
         console.log({ batteam, bowlteam })
 
        
-    } catch (error) {
-        console.log(error)
+    } catch (errors) {
+        console.log(errors)
     }
 }
 
